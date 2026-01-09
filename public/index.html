@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Scope</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body" class="dark">
+
+  <div class="overlay">
+    <div class="weather-card">
+      <button id="themeToggle" onclick="toggleTheme()">🌙</button>
+
+      <h1>Weather Scope</h1>
+      <p id="datetime"></p>
+
+      <input type="text" id="city" placeholder="Enter city name">
+      <button onclick="getWeather()">Get Weather</button>
+
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
