@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Scope</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="weather-card">
+      <h1 class="app-title">🌤️ Weather Scope</h1>
+      
+      <form class="form">
+        <input type="text" class="search_area" placeholder="Search city..." required />
+        <button type="submit">🔍</button>
+      </form>
+
+      <div class="weather-info">
+        <!-- <img src="" alt="Weather Icon" class="weather-icon"/> -->
+        <img src="" alt="Weather Icon" class="weather-icon" />
+
+        <h2 class="temp">--°C</h2>
+        <p class="condition">Condition</p>
+        <div class="time_location">
+          <p class="location">Location</p>
+          <span class="datetime">Date & Time</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
