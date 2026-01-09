@@ -15,6 +15,10 @@ It shows real-time weather information using the **Open-Meteo API** with a moder
 - Fully responsive design
 
 ---
+## 🌍 Live Demo
+
+👉 https://weathher-scope.onrender.com/
+
 
 ## Technologies Used
 
